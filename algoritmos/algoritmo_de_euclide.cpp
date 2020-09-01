@@ -3,6 +3,12 @@
 
 using namespace std;
 
+/*
+
+    mdc(x, y, z) = mdc(mdc(x, y), z), isso vale para N numeros inteiros
+
+*/
+
 int mdc(int x, int y)
 {
     if (y == 0)
